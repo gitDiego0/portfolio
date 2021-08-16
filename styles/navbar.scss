@@ -1,0 +1,16 @@
+.navbar .navbar-menu {
+  background-color: $backgroundColor;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  box-shadow: none;
+
+  .button {
+    margin: 15px;
+    background-color: $backgroundColor;
+    border: none;
+    :hover {
+      background-color: burlywood;
+    }
+  }
+}
